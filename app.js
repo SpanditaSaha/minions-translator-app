@@ -10,10 +10,18 @@ alert("This script works! "+username);*/
 
 var btnTranslate=document.querySelector("#btn-translate")
 var txtInput=document.querySelector("#txt-input")
+var outputDiv=document.querySelector("#output")
 
-function clickHandler()
+/*function clickHandler()
 {
     console.log("Clicked!")
     console.log("input",txtInput.value)
 }
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click", clickHandler)*/
+// Input - Output Processing //
+function clickHandler()
+{
+    outputDiv.innerText="Yes you are "+ txtInput.value ;
+
+}
+btnTranslate.addEventListener("click",clickHandler);
