@@ -18,11 +18,9 @@ textarea{
     display: block;
     height: 10vh;
     width: 95.3%;
-    /*margin: 1rem;*/
     padding:1rem;
     font-weight: normal;
     font-size: 28px;
-    /*font-family: 'Josefin Sans', sans-serif;*/
 }
 
 footer{
@@ -43,7 +41,6 @@ footer{
 .container-center{
     max-width: 700px;
     margin: auto;
-   /* padding-top: 5rem;*/
 }
 
 .main-body{
@@ -65,7 +62,6 @@ footer{
     display: block;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.3rem;
-    /*margin-left: 1rem;*/
     margin-top: 1rem;
 }
 
@@ -81,7 +77,6 @@ footer{
     background-color: var(--primary);
     border: none;
     border-radius: 15px;
-   /*box-shadow: 0 9px black;*/
 }
 .btn-translate:hover {background-color: #3e8e41}
 
