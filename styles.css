@@ -1,17 +1,105 @@
+:root{
+    --primary:#F2C94C;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
+
 textarea{
     display: block;
     height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 95.3%;
+    /*margin: 1rem;*/
+    padding:1rem;
 }
 
+footer{
+    background-color: var(--primary);
+    position: fixed;
+    width: 100%;
+    font-size: medium;
+    padding: 1rem;
+    bottom: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.container{
+    max-width:700px;
+}
+
+.container-center{
+    max-width: 700px;
+    margin: auto;
+   /* padding-top: 5rem;*/
+}
+
+.main-body{
+    padding-top: 4rem;
+}
+.nav-bar{
+    background-color: var(--primary);
+    height: 6rem;
+}
+
+.nav-brand{
+   text-align: center;
+    padding-top: 2rem;
+}
+
+#btn-translate{
+    background-color: var(--primary);
+    border:2px solid black;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    /*margin-left: 1rem;*/
+    margin-top: 1rem;
+}
+
+.btn-translate{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 15px;
+   /*box-shadow: 0 9px black;*/
+}
+.btn-translate:hover {background-color: #3e8e41}
+
+.btn-translate:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #ada99b;
+  transform: translateY(4px);
+}
+
+.output-heading{
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+}
 #output{
     display: block;
     height: 10vh;
-    width: 80%;
+    /*width: 80%;*/
     border: 1px solid black;
-    margin: 1rem;
     padding: 1rem;
+    font-weight: normal;
 
 }
